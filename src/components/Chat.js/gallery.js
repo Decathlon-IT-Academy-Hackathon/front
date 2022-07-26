@@ -1,5 +1,5 @@
-import React from 'react'
-import Carousel from 'better-react-carousel'
+import React from "react";
+import Carousel from "better-react-carousel";
 
 const Gallery = () => {
   return (
@@ -14,5 +14,6 @@ const Gallery = () => {
         <img width="100%" src="https://picsum.photos/800/600?random=3" />
       </Carousel.Item>
     </Carousel>
-  )
-}
+  );
+};
+export default Gallery;
