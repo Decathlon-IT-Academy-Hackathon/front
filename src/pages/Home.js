@@ -47,7 +47,15 @@ function Home() {
               <Card.Img variant="top" src={u.img} />
               <Card.Body>
                 <Card.Title>{u.name}</Card.Title>
-                <Card.Text className="text-muted">
+                <Card.Text className="text-muted d-flex flex-column">
+                  <div>
+                    {" "}
+                    <i className="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
+                  </div>
                   Recomendaciones: {u.recomendaciones}
                 </Card.Text>
                 <div className="d-flex gap-2">
