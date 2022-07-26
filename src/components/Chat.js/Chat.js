@@ -7,10 +7,10 @@ function Chat() {
   return (
     <Container fluid>
       <Row>
-        <Col md={8}>
+        <Col md={7}>
           <Card />
         </Col>
-        <Col md={4}>
+        <Col md={5}>
           <SideBar />
         </Col>
       </Row>
