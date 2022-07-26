@@ -1,17 +1,25 @@
-const Card = () => {
+import userPhoto from "../../assets/user1.jpg";
+import Card from "react-bootstrap/Card";
+import ListGroup from "react-bootstrap/ListGroup";
+
+export function Cards() {
   return (
-    <div className="p">
-      es simplemente el texto de relleno de las imprentas y archivos de texto.
-      Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde
-      el año 1500, cuando un impresor (N. del T. persona que se dedica a la
-      imprenta) desconocido usó una galería de textos y los mezcló de tal manera
-      que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años,
-      sino que tambien ingresó como texto de relleno en documentos electrónicos,
-      quedando esencialmente igual al original. Fue popularizado en los 60s con
-      la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem
-      Ipsum, y más recientemente con software de autoedición, como por ejemplo
-      Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
-    </div>
+    <Card style={{ width: "18rem" }}>
+      <Card.Img variant="top" src={userPhoto} />
+      <Card.Body>
+        <Card.Title>Carles Artola</Card.Title><ListGroup className="list-group-flush">
+
+        <ListGroup.Item>Puntuación</ListGroup.Item>
+        <ListGroup.Item>Medallas</ListGroup.Item>
+      </ListGroup>
+        <Card.Text>
+          Descripción personal.
+        </Card.Text>
+      </Card.Body>
+      <Card.Body>
+        <Card.Link href="#">Card Link</Card.Link>
+        <Card.Link href="#">Another Link</Card.Link>
+      </Card.Body>
+    </Card>
   );
-};
-export default Card;
+}
