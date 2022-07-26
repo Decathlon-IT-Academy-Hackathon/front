@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 function Recomendados() {
   return (
     <div className="detail__container d-flex flex-column">
-      <div className="user__container p-3">
+      <div className="user__container p-3 justify-content-center justify-content-md-start">
         <div style={{ width: "100px" }} className="rounded">
           <img src={userPhoto} className="img-fluid rounded" />
         </div>

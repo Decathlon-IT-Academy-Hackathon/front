@@ -11,7 +11,10 @@ function Chat() {
         <Col md={7}>
           <Recomendados />
         </Col>
-        <Col md={5} className="p-0 d-flex justify-content-end">
+        <Col
+          md={5}
+          className="p-0 d-flex justify-content-center justify-content-md-end"
+        >
           <SideBar />
         </Col>
       </Row>
