@@ -3,9 +3,11 @@ import Card from "react-bootstrap/Card";
 
 function SideBar() {
   return (
-    <div className="bg-secondary sidebar-container p-4 d-flex flex-column gap-4">
-      <h6 className="text-white">Productos similares a tus búsquedas</h6>
-      <Card>
+    <div className="sidebar-container p-4 d-flex flex-column gap-4 align-items-center align-items-md-end">
+      <div className="bg-light p-2 w-100">
+        <small className="text-dark">Productos similares </small>
+      </div>
+      <Card style={{ width: "12rem" }}>
         <Card.Img
           variant="top"
           src="https://contents.mediadecathlon.com/p69082/k$5072f29c63d85acd44eadacb0741e417/sq/gorro-natacion-tejido-punto-azul-tallas-s-y-l.jpg?f=960x960"
