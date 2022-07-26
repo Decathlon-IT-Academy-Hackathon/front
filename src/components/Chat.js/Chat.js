@@ -1,4 +1,4 @@
-import Recomendados from "./Card.js";
+import Recomendados from "./Recomendados.js";
 import SideBar from "../sideBar/SideBar.js";
 import { Container } from "react-bootstrap";
 import Col from "react-bootstrap/Col";
