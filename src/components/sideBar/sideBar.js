@@ -3,8 +3,10 @@ import Card from "react-bootstrap/Card";
 
 function SideBar() {
   return (
-    <div className=" sidebar-container p-4 d-flex flex-column gap-4 ">
-      <small className="text-dark">Productos similares a tus búsquedas</small>
+    <div className="sidebar-container p-4 d-flex flex-column gap-4 align-items-center align-items-md-end">
+      <div className="bg-light p-2 w-100">
+        <small className="text-dark">Productos similares </small>
+      </div>
       <Card style={{ width: "12rem" }}>
         <Card.Img
           variant="top"
