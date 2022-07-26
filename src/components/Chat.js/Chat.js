@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Cards from "./Card";
 import SideBar from "../sideBar/SideBar.js";
 import { Container } from "react-bootstrap";
 import Col from "react-bootstrap/Col";
@@ -8,7 +8,7 @@ function Chat() {
     <Container fluid>
       <Row>
         <Col md={7}>
-          <Card />
+          <Cards />
         </Col>
         <Col md={5} className="p-0">
           <SideBar />
