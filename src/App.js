@@ -2,7 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Header from "./components/header/Header";
 import Home from "./pages/Home";
-import Chat from "./components/Chat.js/Chat";
+import Chat from "./components/Chat/Chat";
+import './components/Chat/chat.css'
 
 function App() {
   return (
