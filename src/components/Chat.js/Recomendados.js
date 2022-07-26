@@ -1,5 +1,6 @@
 import userPhoto from "../../assets/user1.jpg";
 import Badge from "react-bootstrap/Badge";
+import { Button } from "react-bootstrap";
 
 function Recomendados() {
   return (
@@ -8,9 +9,10 @@ function Recomendados() {
         <div style={{ width: "100px" }} className="rounded">
           <img src={userPhoto} className="img-fluid rounded" />
         </div>
-        <div>
+        <div className=" d-flex flex-column">
           <h6 className="fw-bold">Carles Bosch</h6>
-          <small className="text-mutted s">Recomendaciones: 230</small>
+          <small className="fw-bold">RECOMENDADOR</small>
+          <small className="text-mutted ">Recomendaciones: 230</small>
         </div>
         <Badge pill bg="primary">
           Senderismo
@@ -19,13 +21,18 @@ function Recomendados() {
           Snorkel
         </Badge>
       </div>
-      <div className="description">
+      <div className="description p-4">
         <p>
           Con años de experiencia en senderos en parques nacionales, he sido
           capaz de adaptarme a los diferentes ecosistemas. Conozco mucho los
           productos de decatlhon y me han acompañado siempre en cada salida a la
           montaña
         </p>
+      </div>
+      <div className="p-4">
+        <a href="localhost:8000">
+          <Button>Charla conmigo</Button>
+        </a>
       </div>
     </div>
   );

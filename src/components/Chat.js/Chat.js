@@ -7,7 +7,7 @@ import Gallery from "./gallery.js";
 function Chat() {
   return (
     <Container fluid>
-      <Row className="bg-light ">
+      <Row className="bg-light p-4">
         <Col md={7}>
           <Recomendados />
         </Col>
@@ -15,8 +15,8 @@ function Chat() {
           <SideBar />
         </Col>
       </Row>
-      <Row>
-        <h6>Fotos con el producto</h6>
+      <Row className="bg-light mb-3">
+        <h4>Fotos con el producto</h4>
         <Gallery />
       </Row>
     </Container>
