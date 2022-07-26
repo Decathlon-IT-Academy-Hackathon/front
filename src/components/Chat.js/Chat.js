@@ -10,7 +10,7 @@ function Chat() {
         <Col md={7}>
           <Cards />
         </Col>
-        <Col md={5}>
+        <Col md={5} className="p-0">
           <SideBar />
         </Col>
       </Row>
