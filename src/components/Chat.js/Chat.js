@@ -1,8 +1,9 @@
-import { Card } from "./Card";
+import Card from "./Card";
 function Chat() {
-  return 
-  <>
-  <Card />
-  </>
+  return (
+    <>
+      <Card />
+    </>
+  );
 }
 export default Chat;
