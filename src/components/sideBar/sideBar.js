@@ -1,4 +1,4 @@
 function SideBar() {
-  return <div>sidebar</div>;
+  return <div className="bg-dark">sidebar</div>;
 }
 export default SideBar;
