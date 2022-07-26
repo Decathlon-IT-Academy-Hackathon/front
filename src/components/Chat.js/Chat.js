@@ -1,6 +1,6 @@
-import { Card } from "./Card";
+import { Cards } from "./Card";
 function Chat() {
-  return <div><Card />
+  return <div><Cards />
   </div>;
 }
 export default Chat;
