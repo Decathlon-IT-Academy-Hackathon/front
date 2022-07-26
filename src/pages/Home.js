@@ -23,7 +23,7 @@ function Home() {
       img: "https://contents.mediadecathlon.com/s927758/k$5c1763bb50956dff71179a7e19806815/4%20itemsliderdestacado%20500x500%20juegos%20de%20playa.jpg?format=auto",
     },
   ]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   // Effects
   useEffect(() => {
     getUsers();
@@ -62,25 +62,6 @@ function Home() {
         ) : (
           <p>Loading..</p>
         )}
-        <Card className="shadow">
-          <Card.Img
-            variant="top"
-            src="https://contents.mediadecathlon.com/s927758/k$5c1763bb50956dff71179a7e19806815/4%20itemsliderdestacado%20500x500%20juegos%20de%20playa.jpg?format=auto"
-          />
-          <Card.Body>
-            <Card.Title>user</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">
-              <Link to="/chat">Conócelo</Link>
-            </small>
-          </Card.Footer>
-        </Card>
       </CardGroup>
     </Row>
   );
