@@ -1,19 +1,11 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Container from "react-bootstrap/Container";
-import Header from "./components/header/Header";
-import Home from "./pages/Home";
-import Chat from "./components/Chat.js/Chat";
+import { DashboardRoutes } from "./routes/DashboardRoutes";
 
 function App() {
   return (
     <Container fluid>
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/chat" element={<Chat />} />
-        </Routes>
-      </BrowserRouter>
+      <DashboardRoutes />
     </Container>
   );
 }

@@ -25,7 +25,7 @@ function Home() {
       recomendaciones: 230,
       img: "https://contents.mediadecathlon.com/s938936/k$fb5a970485b93f15f692fd0521c7dc47/b%20hp%20verano%20acc%20432x432.jpg?format=auto",
       experto: [{ playa: "snorkel" }, { montaña: "senderismo" }],
-    },
+    }
   ]);
   const [loading, setLoading] = useState(false);
   // Effects
@@ -72,5 +72,5 @@ function Home() {
       </CardGroup>
     </Row>
   );
-}
+};
 export default Home;

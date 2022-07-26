@@ -16,7 +16,9 @@ function Header() {
       <Navbar key={expand} bg="light" expand={expand} className="mb-3">
         <Container fluid>
           <Navbar.Brand href="#">
-            <Link className="col-md-4 mx-auto w-100" to="/">
+            <Link 
+            className="col-md-4 mx-auto w-100" 
+            to="/">
               <img
                 className="d-none d-lg-block mx-auto"
                 src={logo}
@@ -57,8 +59,8 @@ function Header() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="#action1">Home</Nav.Link>
-                <Nav.Link href="#action2">Recomendaciones</Nav.Link>
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/chat">Recomendaciones</Nav.Link>
               </Nav>
               <Form className="d-flex">
                 <Form.Control
