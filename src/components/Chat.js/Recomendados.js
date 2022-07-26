@@ -21,7 +21,7 @@ function Recomendados() {
           Snorkel
         </Badge>
       </div>
-      <div className="description p-4">
+      <div className="description p-2">
         <p>
           Con años de experiencia en senderos en parques nacionales, he sido
           capaz de adaptarme a los diferentes ecosistemas. Conozco mucho los
@@ -29,9 +29,9 @@ function Recomendados() {
           montaña
         </p>
       </div>
-      <div className="p-4">
-        <a href="localhost:8000">
-          <Button>Charla conmigo</Button>
+      <div className="p-2">
+        <a href="http://localhost:8000/">
+          <Button variant="outline-primary">Charla conmigo</Button>
         </a>
       </div>
     </div>
