@@ -50,7 +50,35 @@ const Gallery = () => {
       <Carousel.Item>
         <img
           width="100%"
-          src="https://picsum.photos/800/600?random=3"
+          src="https://picsum.photos/800/600?random=8"
+          alt="imgdepo1"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          width="100%"
+          src="https://picsum.photos/800/600?random=9"
+          alt="imgdepo1"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          width="100%"
+          src="https://picsum.photos/800/600?random=10"
+          alt="imgdepo1"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          width="100%"
+          src="https://picsum.photos/800/600?random=11"
+          alt="imgdepo1"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          width="100%"
+          src="https://picsum.photos/800/600?random=12"
           alt="imgdepo1"
         />
       </Carousel.Item>
