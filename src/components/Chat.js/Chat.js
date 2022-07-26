@@ -1,4 +1,6 @@
+import { Card } from "./Card";
 function Chat() {
-  return <div>hola soy los chats</div>;
+  return <div><Card />
+  </div>;
 }
 export default Chat;
